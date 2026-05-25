@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mero-compiler"
+version = "1.0.0"
+description = "MERO Multi-Language Compiler for Roblox - Compiles Python/C/C#/C++ to Luau"
+requires-python = ">=3.10"
+authors = [
+    {name = "MERO:TG@QP4RM"}
+]
+
+[project.scripts]
+mero = "src.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = false
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]

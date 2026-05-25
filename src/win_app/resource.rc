@@ -1,0 +1,30 @@
+/* MERO Compiler - Windows Resource File */
+#include <winver.h>
+
+IDI_ICON1 ICON "../../mero.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "MERO:TG@QP4RM"
+            VALUE "FileDescription", "MERO Compiler - Python to Lua/Luau"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "MERO"
+            VALUE "LegalCopyright", "MERO:TG@QP4RM"
+            VALUE "OriginalFilename", "MERO.exe"
+            VALUE "ProductName", "MERO Compiler"
+            VALUE "ProductVersion", "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
