@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="source/mero_icon.png" alt="MERO Logo" width="128" height="128">
+  <img src="source/mero.ico" alt="MERO Logo" width="128" height="128">
 </p>
 
 <h1 align="center">MERO Compiler</h1>
